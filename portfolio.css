@@ -1,0 +1,45 @@
+
+.namehead{
+   height: 50vh;
+  
+}
+.namehead h1{
+    position: relative;
+    top: 70%;
+    text-align: center;  
+    color:#fff;
+}
+
+.bgimg{
+    background-image: url(doorway05.jpg);
+    background-size: cover;
+    background-position: center;
+   min-height: 100vh;
+   position: relative;
+}
+
+@media (max-width:768px) {
+    .dp{
+        float: center;
+        position: relative;
+        top: -100px;
+    }
+    .namehead h1{
+        top: 50%;
+    }
+    .navbar{
+        margin-top: -50px;
+    }
+    .more{
+      
+       margin-top: 85%;
+    }
+
+    .languages{
+        padding-top: 50px;
+    }
+
+   
+   
+    
+}
